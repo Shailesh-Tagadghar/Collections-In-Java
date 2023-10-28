@@ -26,19 +26,5 @@ public class Demo2 {
 		}
 		
 		List<Integer> list2 = new ArrayList<>();
-		
-		list2.add(11);
-		list2.add(12);
-		list2.add(13);
-		System.out.println(list);
-	
-		list.addAll(list2);
-		System.out.println("after addALL() : "+list);
-		
-		list.removeAll(list2);
-		System.out.println("after removeAll() : "+list);
-		
-		list.retainAll(list2);
-		System.out.println("after retainAll() : "+list2);
 	}
 }

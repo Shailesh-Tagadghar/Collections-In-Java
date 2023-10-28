@@ -39,6 +39,7 @@ public class Demo2 {
 		System.out.println("after removeAll() : "+list);
 		
 		list.retainAll(list2);
-		System.out.println("after retainAll() : "+list2);
+		System.out.println("after retainAll() : "+list);
+		System.out.println("after addALL() : "+list);
 	}
 }
