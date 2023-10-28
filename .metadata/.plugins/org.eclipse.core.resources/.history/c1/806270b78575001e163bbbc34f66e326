@@ -16,8 +16,5 @@ public class Demo1 {
 		c.add(d1);
 		System.out.println(c);
 		System.out.println(c.size());
-		c.remove(x);
-		System.out.println(c);
-		System.out.println(c.size());
 	}
 }
