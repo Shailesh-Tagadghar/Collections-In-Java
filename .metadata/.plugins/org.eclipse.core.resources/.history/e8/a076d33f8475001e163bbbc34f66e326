@@ -1,0 +1,10 @@
+package Collection_Day1;
+
+public class WrapperDemo {
+	public static void main(String[] args) {
+		int x = 100;
+		Integer x_obj = x;
+		
+		Integer x_obj2 = Integer.valueOf(x);
+	}
+}
