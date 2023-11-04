@@ -18,9 +18,12 @@ public class ListDemo {
 		Iterator<Employee> itr = emp.iterator();
 		
 		while(itr.hasNext()) {
-			
+			Employee e = itr.next();
+			if(e.id == 104) {
+				System.out.println(e);
+			}
 		}
-	}
+}
 }
 
 class Employee {
@@ -35,6 +38,4 @@ class Employee {
 		this.salary = salary;
 	}
 	
-	
-	
-}
+}	
