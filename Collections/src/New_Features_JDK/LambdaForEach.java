@@ -19,7 +19,7 @@ public class LambdaForEach {
 //			System.out.println(itr.next());
 //		}
 		
-//		Consumer c = obj -> System.out.println(obj);
+//		Consumer c = obj -> System.out.println(obj * obj);
 //		list.forEach(c);
 		
 		list.forEach(obj -> System.out.println(obj));
